@@ -1,7 +1,13 @@
+Name : MPWFS02.telefilm.gc.ca
+Domain : telefilm.gc.ca
+
 Entra ID?
 Quota?
 Deduplicacao?
 
+
+CONTA DO AZURE TEM QUE SER NO MINIMO CONTRIBUTOR
+E DO AD TEM QUE TER PERMISSAO PARA ADICIONAR O STORAGE ACCOUNT AO DOMINIO
 
 1. Gpo - update
 2. Regiao
@@ -22,3 +28,6 @@ Deduplicacao?
 
 
 
+Voces tem alguma conexao com o escritorio onde esta o file server com o azure (VPN ou ExpressRoute)?
+Os usuarios irao acessar o file share somente do escritorio?
+O active directory esta no azure e sincronizado com o on-premises?
