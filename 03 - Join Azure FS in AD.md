@@ -139,3 +139,11 @@ robocopy \\srv-fs01\e$\RH Z:\RH /E /TEE /ETA /MT:32 /MIR /R:0 /W:0 /COPY:DATS /L
 
 * Antes de ajustar as GPOs, é preciso configurar o private link e private endpoint no storage account para a conexao ser direto pela rede privada e nao pela internet.
 
+* Antes
+
+
+![alt text](img/sto33.png)
+
+* Depois
+
+![alt text](img/sto34.png)
